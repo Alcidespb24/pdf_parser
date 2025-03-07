@@ -23,4 +23,4 @@ if __name__ == "__main__":
         print(f"""File has been converted to markdown and saved at {result}""")
     except Exception as e:
         print(e)
-        print("Error in parsing the file")
+        print("Error in parsing the file!")

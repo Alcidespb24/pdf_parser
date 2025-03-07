@@ -1,7 +1,8 @@
+import pymupdf4llm as mu4llm
+import pathlib
+
 
 def parse_md(input_file, output_file):
-    import pymupdf4llm as mu4llm
-    import pathlib
 
     input_path = pathlib.Path(input_file)
     md_text = mu4llm.to_markdown(input_path)
